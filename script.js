@@ -17,6 +17,8 @@ var checkDead = setInterval(() => {
     if(blockLeft<30 && blockLeft>0 && characterTop>=130){
         block.style.animation ="none";
         block.style.display ="none";
+        character.style.animation ="none";
+        character.style.display="none";
         alert("u lose");
     }
 }, 10);
