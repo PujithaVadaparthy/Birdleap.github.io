@@ -6,7 +6,7 @@ function jump(){
     }
     setTimeout(function(){
         character.classList.remove("animate");
-    },900);
+    },320);
 }
 
 var checkDead = setInterval(() => {
